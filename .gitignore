@@ -1,0 +1,39 @@
+## ----------------------------------------------------------------------------
+## file    : .gitignore
+## brief   : git tracking assignment file.
+## module  : image-processing
+##
+## author  : Teppei Kobayashi <teppei.ts@gmail.com>
+## date    : 2017/03/12
+## ----------------------------------------------------------------------------
+
+
+# INITIALIZE ##################################################################
+/*
+!.gitignore
+
+
+# PROJECTS ####################################################################
+!/face-detect/
+/face-detect/*
+!/hsv-viewer/
+/hsv-viewer/*
+!/tesseract-ocr/
+/tesseract-ocr/*
+!/matrix-image/
+/matrix-image/*
+!/machine-learning/
+/machine-learning/*
+
+# TRACKING ####################################################################
+# directories
+!sources/
+!include/
+!resources/
+
+# files
+!Makefile
+!*.cpp
+!*.hpp
+!*.sh
+!*.gitkeep
